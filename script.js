@@ -18,8 +18,8 @@ fetch(sheetUrl)
                 document.getElementById("note-title").textContent = `${note[1]} ${note[5]} ${note[3]}`;
                 document.getElementById("note-image").src = note[0];
                 // Format the description field with Year, Denomination, and Description
-                document.getElementById("note-description").innerHTML = 
-                    `<strong>${note[5] ? note[5] : ''} - ${note[3] ? note[3] : ''} ${note[2] ? note[2] : ''}</strong>`;
+                //document.getElementById("note-description").innerHTML = 
+                    //`<strong>${note[5] ? note[5] : ''} - ${note[3] ? note[3] : ''} ${note[2] ? note[2] : ''}</strong>`;
                 
                 document.getElementById("note-owner").textContent = note[1];
                 document.getElementById("note-denomination").textContent = note[3];
