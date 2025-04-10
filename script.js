@@ -25,8 +25,8 @@ fetch(sheetUrl)
                 document.getElementById("note-denomination").textContent = note[3];
                 document.getElementById("note-year").textContent = note[5];
                 document.getElementById("note-serial").textContent = note[6];
-                document.getElementById("note-signed").textContent = note[7];
-                document.getElementById("note-plate").textContent = note[8];
+                //document.getElementById("note-signed").textContent = note[7];
+                //document.getElementById("note-plate").textContent = note[8];
             } else {
                 document.body.innerHTML = "<h1>Banknote not found</h1>";
             }
