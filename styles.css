@@ -44,7 +44,7 @@ img {
     height: auto;
 }
 #note-image {
-    max-width: 600px;   /* Controls max image size */
+    max-width: 800px;   /* Controls max image size */
     width: 100%;        /* Responsive for smaller screens */
     height: auto;       /* Keep aspect ratio */
     display: block;     /* To center with margin auto */
