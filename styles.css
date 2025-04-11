@@ -43,3 +43,13 @@ img {
     max-width: 100%;
     height: auto;
 }
+#note-image {
+    max-width: 500px;   /* Controls max image size */
+    width: 100%;        /* Responsive for smaller screens */
+    height: auto;       /* Keep aspect ratio */
+    display: block;     /* To center with margin auto */
+    margin: 20px auto;  /* Top & bottom space, center horizontally */
+    border: 1px solid #ddd; /* Optional: clean border */
+    padding: 10px;      /* Optional: space inside border */
+    background: #fff;   /* Optional: white background */
+}
