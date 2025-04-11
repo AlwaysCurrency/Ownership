@@ -24,9 +24,9 @@ header h1 {
 
 .left-logo,
 .right-logo {
-    max-height: 30px;  /* This controls how tall it can be */
+    max-height: 50px;  /* This controls how tall it can be */
     width: auto;       /* Keep original aspect ratio */
-    padding: 0 5px;   /* Optional: add space around logo */
+    padding: 0 10px;   /* Optional: add space around logo */
     object-fit: contain; /* Ensures it fits nicely */
 }
 main {
