@@ -24,7 +24,10 @@ header h1 {
 
 .left-logo,
 .right-logo {
-    height: 40px;  /* Adjust size as needed */
+    max-height: 50px;  /* This controls how tall it can be */
+    width: auto;       /* Keep original aspect ratio */
+    padding: 0 10px;   /* Optional: add space around logo */
+    object-fit: contain; /* Ensures it fits nicely */
 }
 main {
     padding: 20px;
